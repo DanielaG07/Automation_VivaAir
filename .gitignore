@@ -1,0 +1,108 @@
+reado por https://www.toptal.com/developers/gitignore/api/java,eclipse,maven
+# Edite en https://www.toptal.com/developers/gitignore?templates=java,eclipse,maven
+
+### Eclipse ###
+.metadatos
+compartimiento/
+tmp /
+* .tmp
+* .bak
+* .swp
+* ~ .nib
+propiedades.locales
+.settings /
+.loadpath
+.recommenders
+
+# Constructores de herramientas externos
+.externalToolBuilders /
+
+# "Configuraciones de lanzamiento de Eclipse" almacenadas localmente
+*.lanzamiento
+
+# Específico de PyDev (Python IDE para Eclipse)
+* .pydevproject
+
+# Específico de CDT (herramientas de desarrollo C / C ++)
+.cproyecto
+
+# CDT- autotools
+.autotools
+
+# Procesador de anotaciones Java (APT)
+.factorypath
+
+# PDT específico (herramientas de desarrollo PHP)
+.Construir camino
+
+# complemento sbteclipse
+.objetivo
+
+# Complemento Tern
+.tern-proyecto
+
+# Complemento TeXlipse
+.texlipse
+
+# STS (conjunto de herramientas Spring)
+.springBeans
+
+# Recomendados de código
+.recommenders /
+
+# Procesamiento de anotaciones
+.apt_generated /
+.apt_generated_test /
+
+# Scala IDE específico (desarrollo de Scala y Java para Eclipse)
+.cache-main
+.scala_dependencies
+.hoja de cálculo
+
+# Elimine el comentario de esta línea si desea ignorar el archivo de descripción del proyecto.
+# Normalmente, este archivo se rastreará si contiene configuraciones de compilación / dependencia:
+#.proyecto
+
+### Parche Eclipse ###
+# Herramientas Spring Boot
+.sts4-cache /
+
+### Java ###
+# Archivo de clase compilado
+*.clase
+
+# Archivo de registro
+*.Iniciar sesión
+
+# Archivos BlueJ
+* .ctxt
+
+# Herramientas móviles para Java (J2ME)
+.mtj.tmp /
+
+# Paquetes de archivos #
+*.tarro
+*.guerra
+* .nar
+*.oreja
+*.Código Postal
+* .tar.gz
+* .rar
+
+# registros de fallas de la máquina virtual, consulte http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid *
+
+### Maven ###
+objetivo/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependencia-reducida-pom.xml
+buildNumber.properties
+.mvn / timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+.mvn / wrapper / maven-wrapper.jar
+
+# Fin de https://www.toptal.com/developers/gitignore/api/java,eclipse,maven
