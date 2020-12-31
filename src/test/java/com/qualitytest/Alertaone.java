@@ -83,7 +83,11 @@ private WebDriver driver;
 		Thread.sleep(2000);
 
 		driver.findElement(By.xpath("//*[@date='2020-12-26']")).click();
+	       Thread.sleep(2000);
+
 		driver.findElement(By.xpath("//*[@date='2021-01-13']")).click();
+	       Thread.sleep(2000);
+
 
 		//driver.findElement(By.xpath("//*[text() = '28'])[2]")).click();
 
@@ -98,8 +102,20 @@ private WebDriver driver;
        Thread.sleep(2000);
 
        driver.findElement(By.xpath("(//*[@class='segment-lowest-price'])[1] ")).click();
-		Thread.sleep(2000);
-
+       Thread.sleep(2000);
+       
+       driver.findElement(By.xpath("(//*[@class='radiobutton'])[1]")).click();
+       Thread.sleep(2000);
+       driver.findElement(By.xpath("(//*[@class='segment-lowest-price'])[6]")).click();
+       Thread.sleep(2000);
+       JavascriptExecutor prueba = (JavascriptExecutor) driver;
+       prueba.executeScript("window.scrollBy(0,500)");
+       
+       
+   
+       driver.findElement(By.xpath("(//*[@class='button with-icon-right'])[3]")).click();
+       
+		
 
 	}	
 
